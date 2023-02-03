@@ -1,5 +1,5 @@
 // Actions
-const STATUS   = 'my-app/books/STATUS';
+const STATUS = 'my-app/books/STATUS';
 
 // Reducer
 export default function reducer(state = {}, action = {}) {

@@ -21,9 +21,3 @@ export function updateBook(book) {
 export function removeWidget(book) {
   return { type: REMOVE, book };
 }
-
-// side effects, only as applicable
-// e.g. thunks, epics, etc
-export function getBook () {
-  return dispatch => get('/book').then(book => dispatch(updateWidget(book)))
-}
